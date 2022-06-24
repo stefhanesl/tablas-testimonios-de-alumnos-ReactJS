@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+}
+.contenedor-declaraciones{
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgb(0, 0, 0);
+
+}
+.imagen-declaracion{
+    height: 100%;
+    width: auto
+}
+.contenedor-texto-declaracion{
+    text-align: center;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.nombre-declaracion{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.cargo-declaracion{
+    font-size: 1.4rem;
+    margin: 15px;
+    padding-bottom: 30px;
+}
+.texto-declaracion{
+    font-size: 1.2rem;
+    text-align: justify;
+    font-style: italic;
+}
